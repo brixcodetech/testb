@@ -1,0 +1,1964 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!--Bootstrap CDN Link-->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
+    <!--Style CSS CDN Link-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--Font Awesome CDN Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--Owl Carousel CDN Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+</head>
+<body class="bg-light">
+    <!--Preloader Start-->
+    <!--Preloader End-->
+    <!-- <div class="container-fluid mb-5">
+        <img src="assets/images/home2.jpg" alt="home" class="img-fluid w-100">
+    </div> -->
+  <!--Navbar Section Start-->
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container-fluid"> <a class="navbar-brand fw-bold" href="index.html" style="font-family: countryside;">Home-Villa</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> 
+          <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse justify-content-end " id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item mb-0"> <a class="nav-link js-scroll-trigger" aria-current="page" href="index.html">Home</a> </li>
+
+            <li class="nav-item mb-0"> <a class="nav-link js-scroll-trigger" aria-current="page" href="post-property.html">Post Property</a> </li>
+
+            <li class="nav-item mb-0"> <a class="nav-link js-scroll-trigger" aria-current="page" href="login.html">Login</a> </li>
+
+            <li class="nav-item"> <a class="js-scroll-trigger2 btn btn-sm bg-dark buttons1 mt-1 mb-0" aria-current="page" href="schedule-visit.html"><i class="fa fa-calendar fasfa1 pt-1 mt-0"></i> Schedule a Visit</a> </li>&nbsp;
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Navbar Section End-->
+    <!--Banner Section Start-->
+    <!--Start Bottom to Top Button-->
+	<div onclick="topFunction()" id="myBtn" class="circle4 object text-center pulse orange"><a href="#"><i class="fa fa-arrow-up text-dark pt-2 arr"></i></a></div>
+	<!--End Bottom To Top Button-->
+    <div class="container-fluid mb-5 mt-0 banner">
+      <div class="row">
+        <div class="col-sm-12 mt-5 mb-5">
+          <!-- <img src="assets/images/bg1.jpg" alt="Background Image" class="img-fluid"> -->
+          <div class="container mt-5">
+            <div class="text-center mt-5">
+              <h1 class="mt-5 text-light text-center mb-3">Properties to Buy in Your City</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <div class="mx-auto mb-5">
+            <nav class="nav justify-content-center">
+              <li class="nav-link"><a href="#" class="nav-link btn btn-sm text-light buttons2">Buy</a>
+              </li>
+              <li class="nav-link"><a href="#" class="nav-link btn btn-sm text-light buttons2">Rent</a>
+              </li>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="container shadow-sm bg-light mb-5" style="border-radius:4px !important;">
+        <div class="row">
+          <div class="col-sm-12 pt-2 pb-2">
+            <div class="row">
+              <div class="col-sm-3 mt-3 mb-0 mx-auto h-100">
+                <form action="#" class="form">
+                  <select class="ch form-select">
+                    <option>Select Your City</option>
+                    <option>Jaipur</option>
+                    <option>Jodhpur</option>
+                    <option>Ajmer</option>
+                    <option>Udaipur</option>
+                    <option>Bhilwara</option>
+                    <option>Kota</option>
+                    <option>Sirohi</option>
+                    <option>Pali</option>
+                    <option>Nagaur</option>
+                    <option>Sikar</option>
+                    <option>Churu</option>
+                    <option>Alwar</option>
+                    <option>Ahemdabad</option>
+                    <option>Sabarmati</option>
+                    <option>Lucknow</option>
+                  </select>
+                </form>
+              </div>
+              <div class="col-sm-3 mt-3 mb-0 text-center mx-auto h-100">
+                <select name="#" id="#" class="form-select mb-2 shadow-none" style="width: 100%;">
+                  <option value="#" selected>Property For</option>
+                  <option value="#">Buy</option>
+                  <option value="#">Rent</option>
+                </select>
+              </div>
+              <div class="col-sm-3 mt-3 mb-0 text-center mx-auto h-100">
+                <select name="#" id="#" class="form-select mb-2 shadow-none" style="width: 100%;">
+                  <option value="#" selected>Property Type</option>
+                  <option value="#">Residential</option>
+                  <option value="#">Comercial</option>
+                  <option value="#">Agriculture</option>
+                </select>
+              </div>
+              <div class="col-sm-3 mt-3 mb-0 text-center mx-auto">
+               <button class="btn btn-sm buttons2 mb-3 px-0 h-75 shadow-none" style="width: 100%;">Search</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <br/>
+    </div>
+    <!--End Banner Section-->
+    <!--Properties By Area Section Start-->
+    <div class="container-fluid mt-3 mb-5">
+      <div class="container">
+        <h1 class="mb-4 fw-bold">Properties by Cities</h1>
+        <div class="container shadow-sm bg-white"style="border-radius: 0px; border:0px !important">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="row">
+                <div class="col-sm-3 mt-5 mb-2 cards2">
+                  <div class="card border">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <center>
+                            <img src="assets/images/buildings.png" alt="City" class="img-fluid area-img1 w-100">
+                          </center>
+                        </div>
+                        <div class="col-sm-6 text-center">
+                          <a href="city.html" class="nav-link"><p class="h5">Jaipur</p></a>
+                          <p>20 listings</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3 mt-5 mb-2 cards2">
+                  <div class="card border">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <center>
+                            <img src="assets/images/buildings.png" alt="City" class="img-fluid area-img1 w-100">
+                          </center>
+                        </div>
+                        <div class="col-sm-6 text-center">
+                          <a href="city.html" class="nav-link"><p class="h5">Jodhpur</p></a>
+                          <p>20 listings</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3 mt-5 mb-2 cards2">
+                  <div class="card border">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <center>
+                            <img src="assets/images/buildings.png" alt="City" class="img-fluid area-img1 w-100">
+                          </center>
+                        </div>
+                        <div class="col-sm-6 text-center">
+                          <a href="city.html" class="nav-link"><p class="h5">Ajmer</p></a>
+                          <p>20 listings</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3 mt-5 mb-2 cards2">
+                  <div class="card border">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <center>
+                            <img src="assets/images/buildings.png" alt="City" class="img-fluid area-img1 w-100">
+                          </center>
+                        </div>
+                        <div class="col-sm-6 text-center">
+                          <a href="city.html" class="nav-link"><p class="h5">Bikaner</p></a>
+                          <p>20 listings</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3 mt-2 mb-5 cards2">
+                  <div class="card border">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <center>
+                            <img src="assets/images/buildings.png" alt="City" class="img-fluid area-img1 w-100">
+                          </center>
+                        </div>
+                        <div class="col-sm-6 text-center">
+                          <a href="city.html" class="nav-link"><p class="h5">Udaipur</p></a>
+                          <p>20 listings</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3 mt-2 mb-5 cards2">
+                  <div class="card border">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <center>
+                            <img src="assets/images/buildings.png" alt="City" class="img-fluid area-img1 w-100">
+                          </center>
+                        </div>
+                        <div class="col-sm-6 text-center">
+                          <a href="city.html" class="nav-link"><p class="h5">Bikaner</p></a>
+                          <p>20 listings</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3 mt-2 mb-5 cards2">
+                  <div class="card border">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <center>
+                            <img src="assets/images/buildings.png" alt="City" class="img-fluid area-img1 w-100">
+                          </center>
+                        </div>
+                        <div class="col-sm-6 text-center">
+                          <a href="city.html" class="nav-link"><p class="h5">Bikaner</p></a>
+                          <p>20 listings</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3 mt-2 mb-5 cards2">
+                  <div class="card border bg-white">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <center>
+                            <img src="assets/images/buildings.png" alt="City" class="img-fluid area-img1 w-100">
+                          </center>
+                        </div>
+                        <div class="col-sm-6 text-center">
+                          <a href="city.html" class="nav-link"><p class="h5">Bikaner</p></a>
+                          <p>20 listings</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 text-center justify-content-center">
+                    <div class="row">
+                      <div class="col-sm-12 mx-auto text-center mb-3 mt-0 copyright1">
+                        <button class="btn btn-sm buttons2"><a href="view-more.html" class="nav-link">View More</a></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Properties By Area Section End-->
+    <!--Navs Tab-->
+    <!--Best Deal Start-->
+      <div class="container-fluid mt-3 mb-5">
+        <div class="container">
+          <!-- <p class="heading-txt1">|Latest Properties</p> -->
+          <h1 class="fw-bold">Latest Properties</h1>
+          <div class="row">
+            <div class="col-sm-12 px-4 text-center g-2">
+              <div class="row">
+                <div class="col-sm-9 mx-auto text-center latest-property-section1">
+                   <!-- Nav tabs -->
+                  <nav class="nav justify-content-center" id="myTabs" role="tablist">
+                    <li class="nav-item g-2 px-2 mt-2 mb-2">
+                      <button class="btn btn-sm buttons2 active villabtn" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" style="background-color: rgb(0, 0, 0) !important;">Villa</button>
+                    </li>
+                    <li class="nav-item g-2 px-2 mt-2 mb-2">
+                      <button class="btn btn-sm buttons2 nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2" type="button">Appartments</button>
+                    </li>
+                    <li class="nav-item g-2 px-2 mt-2 mb-2">
+                      <button class="btn btn-sm buttons2 nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3" type="button">Homes</button>
+                    </li>
+                    <li class="nav-item g-2 px-2 mt-2 mb-2">
+                      <button class="btn btn-sm buttons2 nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab4" type="button">Plots</button>
+                    </li>
+                    <li class="nav-item g-2 px-2 mt-2 mb-2">
+                      <button class="btn btn-sm buttons2 nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab5" type="button">Agriculture</button>
+                    </li>
+                    <!-- <li class="nav-item g-2 px-2 mt-2 mb-2">
+                      <button class="btn btn-sm buttons2 nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab6" type="button">Tab 3</button>
+                    </li> -->
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 g-2">
+              <!-- Tab panes -->
+              <div class="tab-content mt-3">
+                <div class="tab-pane fade show active" id="tab1">
+                  <!-- <p>Content for Tab 1</p> -->
+                  <div class="row">
+                    <div class="col-sm-4 g-2 mt-2 mb-2">
+                      <div class="card cards1 cards2 shadow-sm border-none">
+                        <div class="card-body">
+                          <center>
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/imgs1.webp" alt="Home-Villa" class="img-fluid mt-2 zoom position-static" style="height: 225px !important; width: 100% !important;"></a>
+                          </center>
+                          
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="mt-2 fw-bold mb-1 h5">Virat Krishnav Phase 2
+                              </p>
+                            </div>
+                          </div>
+                          <p class="h6 mt-2">21 New Mi Road, Jaipur Or 97227</p>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="text-start">Area : 545 m<sup>2</sup></p>
+                            </div>
+                            <div class="col-sm-12">
+                              <p class="mb-1 h5">₹ 3.20L - 5.10L</p>
+                            </div>
+                          </div>
+                          <div class="text-center mt-2 mb-1">
+                            <div class="row">
+                              <div class="col-sm-10 text-start g-2">
+                                <button class="btn btn-sm buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                                </button>
+                              </div>
+                              <div class="col-sm-2 text-end g-2">
+                                <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 g-2 mt-2 mb-2">
+                      <div class="card cards1 cards2 shadow-sm border-none">
+                        <div class="card-body">
+                          <center>
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/imgs2.jpg" alt="Home-Villa" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                          </center>
+          
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="mt-2 fw-bold mb-1 h5">Keshav Kunj Phase 2
+                              </p>
+                            </div>
+                          </div>
+                          <p class="h6 mt-2">21 New Mi Road, Jaipur Or 97227</p>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="">Area : 545 m<sup>2</sup></p>
+                            </div>
+                            <div class="col-sm-12">
+                              <p class="mb-1 h5">₹ 3.20L - 5.10L</p>
+                            </div>
+                          </div>
+                          <div class="text-center mt-2 mb-1">
+                            <div class="row">
+                              <div class="col-sm-10 text-start g-2">
+                                <button class="btn btn-sm ms-sm-5 buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                                </button>
+                              </div>
+                              <div class="col-sm-2 text-end g-2">
+                                <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 g-2 mt-2 mb-2">
+                      <div class="card cards1 cards2 shadow-sm border-none">
+                        <div class="card-body">
+                          <center>
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/imgs4.jpg" alt="Home-Villa" class="img-fluid mt-2 zoom" style="height:225px !important; width:100% !important;"></a>
+                          </center>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="mt-2 fw-bold mb-1 h5">Virat Krishnav Phase 2
+                              </p>
+                            </div>
+                          </div>
+                          <p class="h6 mt-2">21 New Mi Road, Jaipur Or 97227</p>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="">Area : 545 m<sup>2</sup></p>
+                            </div>
+                            <div class="col-sm-12">
+                              <p class="mb-1 h5">₹ 3.20L - 5.10L</p>
+                            </div>
+                          </div>
+                          <div class="text-center mt-2 mb-1">
+                            <div class="row">
+                              <div class="col-sm-10 text-start g-2">
+                                <button class="btn btn-sm buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                                </button>
+                              </div>
+                              <div class="col-sm-2 text-end g-2">
+                                <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 g-2 mt-4">
+                      <div class="card cards1 cards2 shadow-sm border-none">
+                        <div class="card-body">
+                          <center>
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/imgs6.jpg" alt="Appartments" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                          </center>
+          
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="mt-2 fw-bold mb-1 h5">Radhey Krishna Phase 1
+                              </p>
+                            </div>
+                          </div>
+                          <p class="h6 mt-2">21 New Mi Road, Jaipur Or 97227</p>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="">Area : 545 m<sup>2</sup></p>
+                            </div>
+                            <div class="col-sm-12">
+                              <p class="mb-1 h5">₹ 3.20L - 5.10L</p>
+                            </div>
+                          </div>
+                          <div class="text-center mt-2 mb-1">
+                            <div class="row">
+                              <div class="col-sm-10 text-start g-2">
+                                <button class="btn btn-sm buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                                </button>
+                              </div>
+                              <div class="col-sm-2 text-end g-2">
+                                <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 g-2 mt-4">
+                      <div class="card cards1 cards2 shadow-sm border-none">
+                        <div class="card-body">
+                          <center>
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/imgs7.jpg" alt="Home-Villa" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                          </center>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="mt-2 fw-bold mb-1 h5">Vidhyadhar Anklave Phase 2
+                              </p>
+                            </div>
+                          </div>
+                          <p class="h6 mt-2">21 New Mi Road, Jaipur Or 97227</p>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="">Area : 545 m<sup>2</sup></p>
+                            </div>
+                            <div class="col-sm-12">
+                              <p class="mb-1 h5">₹ 3.20L - 5.10L</p>
+                            </div>
+                          </div>
+                          <div class="text-center mt-2 mb-1">
+                            <div class="row">
+                              <div class="col-sm-10 text-start g-2">
+                                <button class="btn btn-sm buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                                </button>
+                              </div>
+                              <div class="col-sm-2 text-end g-2">
+                                <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 g-2 mt-4">
+                      <div class="card cards1 cards2 shadow-sm border-none">
+                        <div class="card-body">
+                          <center>
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/imgs8.avif" alt="Home-Villa" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                          </center>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="mt-2 fw-bold mb-1 h5">Shyam Nagar Phase 2
+                              </p>
+                            </div>
+                          </div>
+                          <p class="h6 mt-2">21 New Mi Road, Jaipur Or 97227</p>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="">Area : 545 m<sup>2</sup></p>
+                            </div>
+                            <div class="col-sm-12">
+                              <p class="mb-1 h5">₹ 3.20L - 5.10L</p>
+                            </div>
+                          </div>
+                          <div class="text-center mt-2 mb-1">
+                            <div class="row">
+                              <div class="col-sm-10 text-start g-2">
+                                <button class="btn btn-sm buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                                </button>
+                              </div>
+                              <div class="col-sm-2 text-end g-2">
+                                <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="tab2">
+                  <!-- <p>Content for Tab 2</p> -->
+                  <div class="row">
+                    <div class="col-sm-4 g-2 mt-2 mb-2">
+                      <div class="card cards1 cards2 shadow-sm border-none">
+                        <div class="card-body">
+                          <center>
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/appartments3.jpeg" alt="Home-Villa" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                          </center>
+          
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="mt-2 fw-bold mb-1 h5">Virat Krishnav Phase 2
+                              </p>
+                            </div>
+                          </div>
+                          <p class="h6 mt-2">21 New Mi Road, Jaipur Or 97227</p>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="">Area : 545 m<sup>2</sup></p>
+                            </div>
+                            <div class="col-sm-12">
+                              <p class="mb-1 h5">₹ 3.20L - 5.10L</p>
+                            </div>
+                          </div>
+                          <div class="text-center mt-2 mb-1">
+                            <div class="row">
+                              <div class="col-sm-10 text-start g-2">
+                                <button class="btn btn-sm buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                                </button>
+                              </div>
+                              <div class="col-sm-2 text-end g-2">
+                                <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 g-2 mt-2 mb-2">
+                      <div class="card cards1 cards2 shadow-sm border-none">
+                        <div class="card-body">
+                          <center>
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/appartments2.jpg" alt="Home-Villa" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                          </center>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="mt-2 fw-bold mb-1 h5">Pink City Phase 2
+                              </p>
+                            </div>
+                          </div>
+                          <p class="h6 mt-2">21 New Mi Road, Jaipur Or 97227</p>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="">Area : 545 m<sup>2</sup></p>
+                            </div>
+                            <div class="col-sm-12">
+                              <p class="mb-1 h5">₹ 3.20L - 5.10L</p>
+                            </div>
+                          </div>
+                          <div class="text-center mt-2 mb-1">
+                            <div class="row">
+                              <div class="col-sm-10 text-start g-2">
+                                <button class="btn btn-sm buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                                </button>
+                              </div>
+                              <div class="col-sm-2 text-end g-2">
+                                <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 g-2 mt-2 mb-2">
+                      <div class="card cards1 cards2 shadow-sm border-none">
+                        <div class="card-body">
+                          <center>
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/appartments1.jpg" alt="Home-Villa" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                          </center>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="mt-2 fw-bold mb-1 h5">Virat Krishnav Phase 2
+                              </p>
+                            </div>
+                          </div>
+                          <p class="h6 mt-2">21 New Mi Road, Jaipur Or 97227</p>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="">Area : 545 m<sup>2</sup></p>
+                            </div>
+                            <div class="col-sm-12">
+                              <p class="mb-1 h5">₹ 3.20L - 5.10L</p>
+                            </div>
+                          </div>
+                          <div class="text-center mt-2 mb-1">
+                            <div class="row">
+                              <div class="col-sm-10 text-start g-2">
+                                <button class="btn btn-sm buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                                </button>
+                              </div>
+                              <div class="col-sm-2 text-end g-2">
+                                <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 g-2 mt-4 mb-2">
+                      <div class="card cards1 cards2 shadow-sm border-none">
+                        <div class="card-body">
+                          <center>
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/appartments4.jpg" alt="Home-Villa" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                          </center>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="mt-2 fw-bold mb-1 h5">Saket Anklave Phase 1
+                              </p>
+                            </div>
+                          </div>
+                          <p class="h6 mt-2">21 New Mi Road, Jaipur Or 97227</p>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="">Area : 545 m<sup>2</sup></p>
+                            </div>
+                            <div class="col-sm-12">
+                              <p class="mb-1 h5">₹ 3.20L - 5.10L</p>
+                            </div>
+                          </div>
+                          <div class="text-center mt-2 mb-1">
+                            <div class="row">
+                              <div class="col-sm-10 text-start g-2">
+                                <button class="btn btn-sm buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                                </button>
+                              </div>
+                              <div class="col-sm-2 text-end g-2">
+                                <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 g-2 mt-4 mb-2">
+                      <div class="card cards1 cards2 shadow-sm border-none">
+                        <div class="card-body">
+                          <center>
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/appartments5.jpg" alt="Home-Villa" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                          </center>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="mt-2 fw-bold mb-1 h5">Radhey Krishna Phase 1 
+                              </p>
+                            </div>
+                          </div>
+                          <p class="h6 mt-2">21 New Mi Road, Jaipur Or 97227</p>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="px-4">Area : 545 m<sup>2</sup></p>
+                            </div>
+                            <div class="col-sm-12">
+                              <p class="px-4 mb-1 h5">₹ 3.20L - 5.10L</p>
+                            </div>
+                          </div>
+                          <div class="text-center mt-2 mb-1">
+                            <div class="row">
+                              <div class="col-sm-10 text-start g-2">
+                                <button class="btn btn-sm buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                                </button>
+                              </div>
+                              <div class="col-sm-2 text-end g-2">
+                                <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 g-2 mt-4 mb-2">
+                      <div class="card cards1 cards2 shadow-sm border-none">
+                        <div class="card-body">
+                          <center>
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/appartments6.jpg" alt="Home-Villa" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                          </center>
+          
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="mt-2 fw-bold mb-1 h5">Virat Krishnav Phase 2
+                              </p>
+                            </div>
+                          </div>
+                          <p class="h6 mt-2">21 New Mi Road, Jaipur Or 97227</p>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="">Area : 545 m<sup>2</sup></p>
+                            </div>
+                            <div class="col-sm-12">
+                              <p class="mb-1 h5">₹ 3.20L - 5.10L</p>
+                            </div>
+                          </div>
+                          <div class="text-center mt-2 mb-1">
+                            <div class="row">
+                              <div class="col-sm-10 text-start g-2">
+                                <button class="btn btn-sm buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                                </button>
+                              </div>
+                              <div class="col-sm-2 text-end g-2">
+                                <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="tab3">
+                  <!-- <p>Content for Tab 3</p> -->
+                  <div class="row">
+                    <div class="col-sm-4 g-2 mt-2 mb-2">
+                      <div class="card cards1 cards2 shadow-sm border-none">
+                        <div class="card-body">
+                          <center>
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/home1.png" alt="Home-Villa" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                          </center>         
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="mt-2 fw-bold mb-1 h5">4 BHK House for Sale
+                              </p>
+                            </div>
+                          </div>
+                          <p class="h6 mt-2">Ajmer Road, Jaipur</p>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="">Area : 5405 m<sup>2</sup></p>
+                            </div>
+                            <div class="col-sm-12">
+                              <p class="mb-1 h5">₹ 30.20L - 50.10L</p>
+                            </div>
+                          </div>
+                          <div class="text-center mt-2 mb-1">
+                            <div class="row">
+                              <div class="col-sm-10 text-start g-2">
+                                <button class="btn btn-sm buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                                </button>
+                              </div>
+                              <div class="col-sm-2 text-end g-2">
+                                <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 g-2 mt-2 mb-2">
+                      <div class="card cards1 cards2 shadow-sm border-none">
+                        <div class="card-body">
+                          <center>
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/home4.jpg" alt="Home-Villa" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                          </center>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="mt-2 fw-bold mb-1 h5">3BHK House for Sale
+                              </p>
+                            </div>
+                          </div>
+                          <p class="h6 mt-2">21 New Mi Road, Jaipur Or 97227</p>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="">Area : 4500 m<sup>2</sup></p>
+                            </div>
+                            <div class="col-sm-12">
+                              <p class="mb-1 h5">₹ 30.20L - 45.10L</p>
+                            </div>
+                          </div>
+                          <div class="text-center mt-2 mb-1">
+                            <div class="row">
+                              <div class="col-sm-10 text-start g-2">
+                                <button class="btn btn-sm buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                                </button>
+                              </div>
+                              <div class="col-sm-2 text-end g-2">
+                                <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 g-2 mt-2 mb-2">
+                      <div class="card cards1 cards2 shadow-sm border-none">
+                        <div class="card-body">
+                          <center>
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/home5.jpg" alt="Home-Villa" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                          </center>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="mt-2 fw-bold mb-1 h5">3BHK House for Sale
+                              </p>
+                            </div>
+                          </div>
+                          <p class="h6 mt-2">21 New Mi Road, Jaipur Or 97227</p>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="">Area : 4500 m<sup>2</sup></p>
+                            </div>
+                            <div class="col-sm-12">
+                              <p class="mb-1 h5">₹ 23.20L - 45.10L</p>
+                            </div>
+                          </div>
+                          <div class="text-center mt-2 mb-1">
+                            <div class="row">
+                              <div class="col-sm-10 text-start g-2">
+                                <button class="btn btn-sm buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                                </button>
+                              </div>
+                              <div class="col-sm-2 text-end g-2">
+                                <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 g-2 mt-4 mb-2">
+                      <div class="card cards1 cards2 shadow-sm border-none">
+                        <div class="card-body">
+                          <center>
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/home3.jpg" alt="Home-Villa" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                          </center>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="mt-2 fw-bold mb-1 h5">2BHK House for Sale
+                              </p>
+                            </div>
+                          </div>
+                          <p class="h6 mt-2">21 New MG Road, Jaipur Or 97227</p>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="">Area : 3000m<sup>2</sup></p>
+                            </div>
+                            <div class="col-sm-12">
+                              <p class="mb-1 h5">₹ 25.20L - 37.00L</p>
+                            </div>
+                          </div>
+                          <div class="text-center mt-2 mb-1">
+                            <div class="row">
+                              <div class="col-sm-10 text-start g-2">
+                                <button class="btn btn-sm ms-sm-5 buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                                </button>
+                              </div>
+                              <div class="col-sm-2 text-end g-2">
+                                <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 g-2 mt-4 mb-2">
+                      <div class="card cards1 cards2 shadow-sm border-none">
+                        <div class="card-body">
+                          <center>
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/home6.jpg" alt="Home-Villa" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                          </center>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="mt-2 fw-bold mb-1 h5">3BHK House for Sale
+                              </p>
+                            </div>
+                          </div>
+                          <p class="h6 mt-2">23 New MR Road, Jaipur Or 97227</p>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="">Area : 3500 m<sup>2</sup></p>
+                            </div>
+                            <div class="col-sm-12">
+                              <p class="mb-1 h5">₹ 30.20L - 35.10L</p>
+                            </div>
+                          </div>
+                          <div class="text-center mt-2 mb-1">
+                            <div class="row">
+                              <div class="col-sm-10 text-start g-2">
+                                <button class="btn btn-sm buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                                </button>
+                              </div>
+                              <div class="col-sm-2 text-end g-2">
+                                <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 g-2 mt-4 mb-2">
+                      <div class="card cards1 cards2 shadow-sm border-none">
+                        <div class="card-body">
+                          <center>
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/home7.jpg" alt="Home-Villa" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                          </center>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="mt-2 fw-bold mb-1 h5">4BHK House for Sale
+                              </p>
+                            </div>
+                          </div>
+                          <p class="h6 mt-2">21 New Mi Road, Jaipur Or 97227</p>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="">Area : 4500 m<sup>2</sup></p>
+                            </div>
+                            <div class="col-sm-12">
+                              <p class="mb-1 h5">₹ 37.50L - 47.30L</p>
+                            </div>
+                          </div>
+                          <div class="text-center mt-2 mb-1">
+                            <div class="row">
+                              <div class="col-sm-10 text-start g-2">
+                                <button class="btn btn-sm buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                                </button>
+                              </div>
+                              <div class="col-sm-2 text-end g-2">
+                                <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="tab-pane fade" id="tab4">
+                  <!--<p>Content for Tab 4</p>-->
+                  <div class="row">
+                    <div class="col-sm-4 g-2 mt-2 mb-2">
+                      <div class="card cards1 cards2 shadow-sm border-none">
+                        <div class="card-body">
+                          <center>
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/plot1.avif" alt="Plots" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                          </center>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="mt-2 fw-bold mb-1 h5">Plots for Sale 
+                              </p>
+                            </div>
+                          </div>
+                          <p class="h6 mt-2">21 New Mi Road, Jaipur Or 97227</p>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="">Area : 5405 m<sup>2</sup></p>
+                            </div>
+                            <div class="col-sm-12">
+                              <p class="mb-1 h5">₹ 53.20L - 65.10L</p>
+                            </div>
+                          </div>
+                          <div class="text-center mt-2 mb-1">
+                            <div class="row">
+                              <div class="col-sm-10 text-start g-2">
+                                <button class="btn btn-sm buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                                </button>
+                              </div>
+                              <div class="col-sm-2 text-end g-2">
+                                <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 g-2 mt-2 mb-2">
+                      <div class="card cards1 cards2 shadow-sm border-none">
+                        <div class="card-body">
+                          <center>
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/plot1.avif" alt="Plots" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                          </center>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="mt-2 fw-bold mb-1 h5">Plots for Sale 
+                              </p>
+                            </div>
+                          </div>
+                          <p class="h6 mt-2">02 New MG Road, Jaipur Or 97227</p>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="">Area : 5400 m<sup>2</sup></p>
+                            </div>
+                            <div class="col-sm-12">
+                              <p class="mb-1 h5">₹ 50.20L - 58.10L</p>
+                            </div>
+                          </div>
+                          <div class="text-center mt-2 mb-1">
+                            <div class="row">
+                              <div class="col-sm-10 text-start g-2">
+                                <button class="btn btn-sm ms-sm-5 buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                                </button>
+                              </div>
+                              <div class="col-sm-2 text-end g-2">
+                                <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 g-2 mt-2 mb-2">
+                      <div class="card cards1 cards2 shadow-sm border-none">
+                        <div class="card-body">
+                          <center>
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/plot1.avif" alt="Plots" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                          </center>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="mt-2 fw-bold mb-1 h5">Plots for Sale 
+                              </p>
+                            </div>
+                          </div>
+                          <p class="h6 mt-2">21 New Mi Road, Jaipur Or 97227</p>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="">Area : 5405 m<sup>2</sup></p>
+                            </div>
+                            <div class="col-sm-12">
+                              <p class="mb-1 h5">₹ 53.20L - 65.10L</p>
+                            </div>
+                          </div>
+                          <div class="text-center mt-2 mb-1">
+                            <div class="row">
+                              <div class="col-sm-10 text-start g-2">
+                                <button class="btn btn-sm buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                                </button>
+                              </div>
+                              <div class="col-sm-2 text-end g-2">
+                                <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 g-2 mt-4 mb-2">
+                      <div class="card cards1 cards2 shadow-sm border-none">
+                        <div class="card-body">
+                          <center>
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/plot1.avif" alt="Plots" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                          </center>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="mt-2 fw-bold mb-1 h5">Plots for Sale 
+                              </p>
+                            </div>
+                          </div>
+                          <p class="h6 mt-2">21 New Mi Road, Jaipur Or 97227</p>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="">Area : 5405 m<sup>2</sup></p>
+                            </div>
+                            <div class="col-sm-12">
+                              <p class="mb-1 h5">₹ 53.20L - 65.10L</p>
+                            </div>
+                          </div>
+                          <div class="text-center mt-2 mb-1">
+                            <div class="row">
+                              <div class="col-sm-10 text-start px-4 g-2">
+                                <button class="btn btn-sm ms-sm-5 buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                                </button>
+                              </div>
+                              <div class="col-sm-2 text-end g-2">
+                                <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 g-2 mt-4 mb-2">
+                      <div class="card cards1 cards2 shadow-sm border-none">
+                        <div class="card-body">
+                          <center>
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/plot1.avif" alt="Plots" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                          </center>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="mt-2 fw-bold mb-1 h5">Plots for Sale 
+                              </p>
+                            </div>
+                          </div>
+                          <p class="h6 mt-2">21 New Mi Road, Jaipur Or 97227</p>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="">Area : 5300 m<sup>2</sup></p>
+                            </div>
+                            <div class="col-sm-12">
+                              <p class="mb-1 h5">₹ 53.20L - 65.10L</p>
+                            </div>
+                          </div>
+                          <div class="text-center mt-2 mb-1">
+                            <div class="row">
+                              <div class="col-sm-10 text-start g-2">
+                                <button class="btn btn-sm buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                                </button>
+                              </div>
+                              <div class="col-sm-2 text-end g-2">
+                                <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 g-2 mt-4 mb-2">
+                      <div class="card cards1 cards2 shadow-sm border-none">
+                        <div class="card-body">
+                          <center>
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/plot1.avif" alt="Plots" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                          </center>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="mt-2 fw-bold mb-1 h5">Plots for Sale 
+                              </p>
+                            </div>
+                          </div>
+                          <p class="h6 mt-2">21 New Mi Road, Jaipur Or 97227</p>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="">Area : 5405 m<sup>2</sup></p>
+                            </div>
+                            <div class="col-sm-12">
+                              <p class="mb-1 h5">₹ 53.20L - 65.10L</p>
+                            </div>
+                          </div>
+                          <div class="text-center mt-2 mb-1">
+                            <div class="row">
+                              <div class="col-sm-10 text-start g-2">
+                                <button class="btn btn-sm buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                                </button>
+                              </div>
+                              <div class="col-sm-2 text-end g-2">
+                                <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="tab-pane fade" id="tab5">
+                  <!-- <p>Content for Tab 5</p> -->
+                  <div class="row">
+                    <div class="col-sm-4 g-2 mt-2 mb-2">
+                      <div class="card cards1 cards2 shadow-sm border-none">
+                        <div class="card-body">
+                          <center>
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/agri1.png" alt="Plots" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                          </center>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="mt-2 fw-bold mb-1 h5">Agricultural Field for Sale 
+                              </p>
+                            </div>
+                          </div>
+                          <p class="h6 mt-2">21 New Mi Road, Jaipur Or 97227</p>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="">Area : 54005 m<sup>2</sup></p>
+                            </div>
+                            <div class="col-sm-12">
+                              <p class="mb-1 h5">₹ 5.20Cr - 55.10Vr</p>
+                            </div>
+                          </div>
+                          <div class="text-center mt-2 mb-1">
+                            <div class="row">
+                              <div class="col-sm-10 text-start g-2">
+                                <button class="btn btn-sm buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                                </button>
+                              </div>
+                              <div class="col-sm-2 text-end g-2">
+                                <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 g-2 mt-2 mb-2">
+                      <div class="card cards1 cards2 shadow-sm border-none">
+                        <div class="card-body">
+                          <center>
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/plot1.avif" alt="Plots" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                          </center>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="mt-2 fw-bold mb-1 h5">Agricultural Field for Sale 
+                              </p>
+                            </div>
+                          </div>
+                          <p class="h6 mt-2">21 New Mi Road, Jaipur Or 97227</p>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="">Area : 54005 m<sup>2</sup></p>
+                            </div>
+                            <div class="col-sm-12">
+                              <p class="mb-1 h5">₹ 5.20Cr - 55.10Vr</p>
+                            </div>
+                          </div>
+                          <div class="text-center mt-2 mb-1">
+                            <div class="row">
+                              <div class="col-sm-10 text-start g-2">
+                                <button class="btn btn-sm buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                                </button>
+                              </div>
+                              <div class="col-sm-2 text-end g-2">
+                                <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 g-2 mt-2 mb-2">
+                      <div class="card cards1 cards2 shadow-sm border-none">
+                        <div class="card-body">
+                          <center>
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/plot1.avif" alt="Plots" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                          </center>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="mt-2 fw-bold mb-1 h5">Agricultural Field for Sale 
+                              </p>
+                            </div>
+                          </div>
+                          <p class="h6 mt-2">21 New Mi Road, Jaipur Or 97227</p>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="">Area : 54005 m<sup>2</sup></p>
+                            </div>
+                            <div class="col-sm-12">
+                              <p class="mb-1 h5">₹ 5.20Cr - 55.10Cr</p>
+                            </div>
+                          </div>
+                          <div class="text-center mt-2 mb-1">
+                            <div class="row">
+                              <div class="col-sm-10 text-start g-2">
+                                <button class="btn btn-sm buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                                </button>
+                              </div>
+                              <div class="col-sm-2 text-end g-2">
+                                <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 g-2 mt-4 mb-2">
+                      <div class="card cards1 cards2 shadow-sm border-none">
+                        <div class="card-body">
+                          <center>
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/plot1.avif" alt="Plots" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                          </center>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="mt-2 fw-bold mb-1 h5">Agricultural Field for Sale 
+                              </p>
+                            </div>
+                          </div>
+                          <p class="h6 pmt-2">21 New Mi Road, Jaipur Or 97227</p>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="">Area : 54005 m<sup>2</sup></p>
+                            </div>
+                            <div class="col-sm-12">
+                              <p class="pmb-1 h5">₹ 5.20Cr - 55.10Vr</p>
+                            </div>
+                          </div>
+                          <div class="text-center mt-2 mb-1">
+                            <div class="row">
+                              <div class="col-sm-10 text-start g-2">
+                                <button class="btn btn-sm buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                                </button>
+                              </div>
+                              <div class="col-sm-2 text-end g-2">
+                                <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 g-2 mt-4 mb-2">
+                      <div class="card cards1 cards2 shadow-sm border-none">
+                        <div class="card-body">
+                          <center>
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/plot1.avif" alt="Plots" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                          </center>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="mt-2 fw-bold mb-1 h5">Agricultural Field for Sale 
+                              </p>
+                            </div>
+                          </div>
+                          <p class="h6 mt-2">21 New Mi Road, Jaipur Or 97227</p>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="">Area : 54005 m<sup>2</sup></p>
+                            </div>
+                            <div class="col-sm-12">
+                              <p class="mb-1 h5">₹ 5.20Cr - 55.10Cr</p>
+                            </div>
+                          </div>
+                          <div class="text-center mt-2 mb-1">
+                            <div class="row">
+                              <div class="col-sm-10 text-start g-2">
+                                <button class="btn btn-sm  buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                                </button>
+                              </div>
+                              <div class="col-sm-2 text-end g-2">
+                                <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 g-2 mt-4 mb-2">
+                      <div class="card cards1 cards2 shadow-sm border-none">
+                        <div class="card-body">
+                          <center>
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/plot1.avif" alt="Plots" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                          </ce
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="mt-2 fw-bold mb-1 h5">Agricultural Field for Sale 
+                              </p>
+                            </div>
+                          </div>
+                          <p class="h6 mt-2">21 New Mi Road, Jaipur Or 97227</p>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <p class="">Area : 54005 m<sup>2</sup></p>
+                            </div>
+                            <div class="col-sm-12">
+                              <p class="mb-1 h5">₹ 5.20Cr - 55.10Cr</p>
+                            </div>
+                          </div>
+                          <div class="text-center mt-2 mb-1">
+                            <div class="row">
+                              <div class="col-sm-10 text-start px-4 g-2">
+                                <button class="btn btn-sm ms-sm-5 buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                                </button>
+                              </div>
+                              <div class="col-sm-2 text-end g-2">
+                                <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--Best Deal End-->
+    <!--Properties Rent Section Start-->
+    <div class="container-fluid mt-3 mb-5 bg-light">
+      <div class="container">
+        <!-- <p class="heading-txt1">|Properties</p> -->
+        <h1 class="fw-bold">Properties for Rent</h1>
+        <div class="row">
+          <div class="col-sm-4 g-2 mt-2">
+            <div class="card cards1 cards2 shadow-sm border-none">
+              <div class="card-body">
+                <center>
+                  <a href="see-appartment.html" class="nav-link"><img src="assets/images/rent1.jpg" alt="Home-Villa" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                </center>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <p class="mt-2 fw-bold mb-1 h5">Viraj Anklave Appartment for Sale 
+                    </p>
+                  </div>
+                </div>
+                <p class="h6 mt-2">21 New Mi Road, Jaipur Or 97227</p>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <p class="">Area : 54005 m<sup>2</sup></p>
+                  </div>
+                  <div class="col-sm-12">
+                    <p class="mb-1 h5">₹ 5.20Cr - 55.10Cr</p>
+                  </div>
+                </div>
+                <div class="text-center mt-2 mb-1">
+                  <div class="row">
+                    <div class="col-sm-10 text-start g-2">
+                      <button class="btn btn-sm buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                      </button>
+                    </div>
+                    <div class="col-sm-2 text-end g-2">
+                      <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 g-2 mt-2">
+            <div class="card cards1 cards2 shadow-sm border-none">
+              <div class="card-body">
+                <center>
+                  <a href="see-appartment.html" class="nav-link"><img src="assets/images/rent2.jpg" alt="Home-Villa" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                </center>
+
+                <div class="row">
+                  <div class="col-sm-12">
+                    <p class="mt-2 fw-bold mb-1 h5">Krishna Anklave Appartment for Sale 
+                    </p>
+                  </div>
+                </div>
+                <p class="h6 mt-2">21 New Mi Road, Jaipur Or 97227</p>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <p class="">Area : 54005 m<sup>2</sup></p>
+                  </div>
+                  <div class="col-sm-12">
+                    <p class="mb-1 h5">₹ 5.20Cr - 55.10Cr</p>
+                  </div>
+                </div>
+                <div class="text-center mt-2 mb-1">
+                  <div class="row">
+                    <div class="col-sm-10 text-start g-2">
+                      <button class="btn btn-sm buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                      </button>
+                    </div>
+                    <div class="col-sm-2 text-end g-2">
+                      <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 g-2 mt-2">
+            <div class="card cards1 cards2 shadow-sm border-none">
+              <div class="card-body">
+                <center>
+                  <a href="see-appartment.html" class="nav-link"><img src="assets/images/rent3.jpg" alt="Home-Villa" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                </center>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <p class="mt-2 fw-bold mb-1 h5">Jagatpura Appartments for Sale 
+                    </p>
+                  </div>
+                </div>
+                <p class="h6 mt-2">21 New Mi Road, Jaipur Or 97227</p>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <p class="">Area : 54005 m<sup>2</sup></p>
+                  </div>
+                  <div class="col-sm-12">
+                    <p class=" mb-1 h5">₹ 5.20Cr - 55.10Vr</p>
+                  </div>
+                </div>
+                <div class="text-center mt-2 mb-1">
+                  <div class="row">
+                    <div class="col-sm-10 text-start g-2">
+                      <button class="btn btn-sm buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                      </button>
+                    </div>
+                    <div class="col-sm-2 text-end g-2">
+                      <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Properties Section End-->
+    <!--App Download Section Start-->
+    <div class="container-fluid mt-3 mb-2">
+      <div class="container">
+        <!-- <p class="heading-txt1">|Properties</p> -->
+        <h1 class="fw-bold mb-5">Download Our App</h1>
+        <img src="assets/images/Mobile-app-page-template-features.jpg" alt="App Download Section" class="img-fluid mt-2">
+      </div>
+    </div>
+    <!--App Download Section End-->
+    <!--Footer Section Start-->
+    <br/>
+    <br/>
+    <div class="container-fluid mt-5 mb-0 bg-dark text-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 g-2 mt-3">
+            <p class="px-2 mb-1 mt-2 fw-bold h5">Contact us</p>
+            <nav class="nav flex-column">
+              <a href="#" class="nav-link mb-0 text-light footer-links"><i class="fa fa-map-marker"></i> 3755 Commercial St SE Salem, Corner with Sunny Boulevard, 3755 Commercial OR 97302</a>
+              <a href="https://mail.google.com/mail/u/?authuser=office.brixcode@gmail.com&?shva=1#contact/0123456789ABCDEF" target="_blank" class="nav-link mt-0 text-light footer-links"><i class="fa fa-envelope"></i> info@gmail.com</a>
+              <a href="#" class="nav-link mb-0 text-light footer-links"><i class="fa fa-phone"></i> +91- 3532353409</a>
+              <a href="index.html" class="nav-link mt-0 text-light footer-links"><i class="fa fa-desktop"></i> Home Properties</a>
+            </nav>
+
+            <div class="row">
+              <div class="col-sm-12 mt-3">
+                <ul class="nav">
+                  <li class="nav-item"><div class="circle pulse blue circle2 shake1"><a href="#" class="nav-link">&nbsp;<i class="fa fa-facebook fafa2 px-2 pt-2"></i></a></div></li>
+                  <li class="nav-item"><div class="circle pulse blue circle2 shake1"><a href="#" class="nav-link"><i class="fa fa-instagram fafa2 px-2 pt-2"></i></a></div></li>
+                  <li class="nav-item"><div class="circle pulse blue circle2 shake1"><a href="#" class="nav-link"><i class="fa fa-twitter fafa2 px-2 pt-2"></i></a></div></li>
+                  <li class="nav-item"><div class="circle pulse blue circle2 shake1"><a href="#" class="nav-link"><i class="fa fa-whatsapp fafa2 px-2 pt-2"></i></a></div></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 g-2 mt-3">
+            <p class="px-2 mb-1 mt-2 fw-bold h5">List by Category</p>
+            <nav class="nav flex-column footer-links">
+              <a href="#" class="nav-link mb-0 text-light">Appartments</a>
+              <a href="#" class="nav-link mt-0 text-light">Villa</a>
+              <a href="#" class="nav-link mb-0 text-light">Homes</a>
+              <a href="#" class="nav-link mt-0 text-light">Agriculture</a>
+              <a href="#" class="nav-link mb-0 text-light">Buy</a>
+              <a href="#" class="nav-link mb-0 text-light">Rent</a>
+            </nav>
+          </div>
+          <div class="col-sm-3 mt-3">
+            <div class="" style="border:0px; border-radius: 0px;">
+              <div class="row">
+                <div class="col-sm-12">
+                  <p class="px-2 text-center fw-bold h5 mt-2">Featured Properties</p>
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <a href="see-appartment.html" class="nav-link"><img src="assets/images/appartments1.jpg" alt="Appartments" class="img-fluid px-3 mt-2 mb-2" style="height:74px; width: 100%;"></a>
+                    </div>
+                    <div class="col-sm-6 text-center">
+                      <p class="px-2 mt-2 mb-0 fw-bold">Appartments in Gopalpura</p>
+                      <p class="heading-txt1">$ 20.20Lakh</p>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <a href="see-appartment.html" class="nav-link"><img src="assets/images/appartments2.jpg" alt="Appartments" class="img-fluid px-3 mt-2 mb-3" style="height:74px; width: 100%;"></a>
+                    </div>
+                    <div class="col-sm-6 text-center">
+                      <p class="px-2 mt-2 mb-0 fw-bold">Appartments in Jagatpura</p>
+                      <p class="heading-txt1">$ 20.20Lakh</p>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <a href="see-appartment.html" class="nav-link"><img src="assets/images/home1.png" alt="Appartments" class="img-fluid px-3 mt-2 mb-3" style="height:74px; width: 100%;"></a>
+                    </div>
+                    <div class="col-sm-6 text-center">
+                      <p class="px-2 mt-2 mb-0 fw-bold">Home in Mansarovar</p>
+                      <p class="heading-txt1">$ 20.20Lakh</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="mb-1 mt-1"/>
+        <div class="row">
+          <div class="col-sm-6 mb-0">
+            <p class="text-secondary text-start mb-0 copyright1">All right reserved &copy;2024</p>
+          </div>
+          <div class="col-sm-6 mt-0 mb-1">
+            <p class="text-secondary mb-0 text-end copyright1">Managed by <a href="https://brixcodetechnologies.com/" target="_blank" class="text-secondary"><u>Brixcode Technologies</u></a></p>
+          </div>
+          <!-- <hr class="mb-1 border border-success bg-success"/> -->
+        </div>
+      </div>
+      </div>
+    </div>
+    <!--Footer Section End-->
+    <!-- Bootstrap JS CDNS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <script>
+      $(document).ready(function(){
+        $('#myTab a').click(function (e) {
+          e.preventDefault();
+          $(this).tab('show');
+        });
+      });
+    </script>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     
+<script>
+    $(document).ready(function() {
+      // Hide dropdown initially
+      $('#optionsDropdown').hide();
+    
+      // Show dropdown when search input is focused
+      $('#searchInput').focus(function() {
+        $('#optionsDropdown').show();
+      });
+    
+      // Hide dropdown when search input loses focus
+      $('#searchInput').blur(function() {
+        $('#optionsDropdown').hide();
+      });
+    
+      // Filter dropdown options based on user input
+      $('#searchInput').keyup(function() {
+        var searchText = $(this).val().toLowerCase().trim();
+        $('#optionsDropdown .dropdown-item').each(function() {
+          var optionText = $(this).text().toLowerCase();
+          if (optionText.includes(searchText)) {
+            $(this).show();
+          } else {
+            $(this).hide();
+          }
+        });
+      });
+    
+      // Add selected option to search input value
+      $('.dropdown-item').click(function() {
+        var optionText = $(this).text();
+        var searchInput = $('#searchInput');
+        var currentSearchValue = searchInput.val();
+        
+        // Add space if the search input is not empty
+        if (currentSearchValue !== '') {
+          currentSearchValue += ' ';
+        }
+        
+        // Append the option text to the search input value
+        searchInput.val(currentSearchValue + optionText);
+      });
+    });
+</script>
+
+<!--Preloader Js CDN Link-->
+<script src="assets/js/preloader.js"></script>
+<script src="assets/js/carousel.js"></script>
+<script src="assets/js/bottom-to-top-button.js"></script>
+</html>
+
+
+
+<script>
+  const form = document.querySelector(".form");
+const dropdowns = document.querySelectorAll(".dropdown");
+
+// Check if Dropdowns are Exist
+// Loop Dropdowns and Create Custom Dropdown for each Select Element
+if (dropdowns.length > 0) {
+   dropdowns.forEach((dropdown) => {
+      createCustomDropdown(dropdown);
+   });
+}
+
+// Check if Form Element Exist on Page
+if (form !== null) {
+   form.addEventListener("submit", (e) => {
+      e.preventDefault();
+   });
+}
+
+// Create Custom Dropdown
+function createCustomDropdown(dropdown) {
+   // Get All Select Options
+   // And Convert them from NodeList to Array
+   const options = dropdown.querySelectorAll("option");
+   const optionsArr = Array.prototype.slice.call(options);
+
+   // Create Custom Dropdown Element and Add Class Dropdown
+   const customDropdown = document.createElement("div");
+   customDropdown.classList.add("dropdown");
+   dropdown.insertAdjacentElement("afterend", customDropdown);
+
+   // Create Element for Selected Option
+   const selected = document.createElement("div");
+   selected.classList.add("dropdown-select");
+   selected.textContent = optionsArr[0].textContent;
+   customDropdown.appendChild(selected);
+
+   // Create Element for Dropdown Menu
+   // Add Class and Append it to Custom Dropdown
+   const menu = document.createElement("div");
+   menu.classList.add("dropdown-menu");
+   customDropdown.appendChild(menu);
+   selected.addEventListener("click", toggleDropdown.bind(menu));
+
+   // Create Search Input Element
+   const search = document.createElement("input");
+   search.placeholder = "Search...";
+   search.type = "text";
+   search.classList.add("dropdown-menu-search");
+   menu.appendChild(search);
+
+   // Create Wrapper Element for Menu Items
+   // Add Class and Append to Menu Element
+   const menuInnerWrapper = document.createElement("div");
+   menuInnerWrapper.classList.add("dropdown-menu-inner");
+   menu.appendChild(menuInnerWrapper);
+
+   // Loop All Options and Create Custom Option for Each Option
+   // And Append it to Inner Wrapper Element
+   optionsArr.forEach((option) => {
+      const item = document.createElement("div");
+      item.classList.add("dropdown-menu-item");
+      item.dataset.value = option.value;
+      item.textContent = option.textContent;
+      menuInnerWrapper.appendChild(item);
+
+      item.addEventListener(
+         "click",
+         setSelected.bind(item, selected, dropdown, menu)
+      );
+   });
+
+   // Add Selected Class to First Custom Select Option
+   menuInnerWrapper.querySelector("div").classList.add("selected");
+
+   // Add Input Event to Search Input Element to Filter Items
+   // Add Click Event to Element to Close Custom Dropdown if Clicked Outside
+   // Hide the Original Dropdown(Select)
+   search.addEventListener("input", filterItems.bind(search, optionsArr, menu));
+   document.addEventListener(
+      "click",
+      closeIfClickedOutside.bind(customDropdown, menu)
+   );
+   dropdown.style.display = "none";
+}
+
+// Toggle for Display and Hide Dropdown
+function toggleDropdown() {
+   if (this.offsetParent !== null) {
+      this.style.display = "none";
+   } else {
+      this.style.display = "block";
+      this.querySelector("input").focus();
+   }
+}
+
+// Set Selected Option
+function setSelected(selected, dropdown, menu) {
+   // Get Value and Label from Clicked Custom Option
+   const value = this.dataset.value;
+   const label = this.textContent;
+
+   // Change the Text on Selected Element
+   // Change the Value on Select Field
+   selected.textContent = label;
+   dropdown.value = value;
+
+   // Close the Menu
+   // Reset Search Input Value
+   // Remove Selected Class from Previously Selected Option
+   // And Show All Div if they Were Filtered
+   // Add Selected Class to Clicked Option
+   menu.style.display = "none";
+   menu.querySelector("input").value = "";
+   menu.querySelectorAll("div").forEach((div) => {
+      if (div.classList.contains("is-select")) {
+         div.classList.remove("is-select");
+      }
+      if (div.offsetParent === null) {
+         div.style.display = "block";
+      }
+   });
+   this.classList.add("is-select");
+}
+
+// Filter the Items
+function filterItems(itemsArr, menu) {
+   // Get All Custom Select Options
+   // Get Value of Search Input
+   // Get Filtered Items
+   // Get the Indexes of Filtered Items
+   const customOptions = menu.querySelectorAll(".dropdown-menu-inner div");
+   const value = this.value.toLowerCase();
+   const filteredItems = itemsArr.filter((item) =>
+      item.value.toLowerCase().includes(value)
+   );
+   const indexesArr = filteredItems.map((item) => itemsArr.indexOf(item));
+
+   // Check if Option is not Inside Indexes Array
+   // And Hide it and if it is Inside Indexes Array and it is Hidden Show it
+   itemsArr.forEach((option) => {
+      if (!indexesArr.includes(itemsArr.indexOf(option))) {
+         customOptions[itemsArr.indexOf(option)].style.display = "none";
+      } else {
+         if (customOptions[itemsArr.indexOf(option)].offsetParent === null) {
+            customOptions[itemsArr.indexOf(option)].style.display = "block";
+         }
+      }
+   });
+}
+
+// Close Dropdown if Clicked Outside Dropdown Element
+function closeIfClickedOutside(menu, e) {
+   if (
+      e.target.closest(".dropdown") === null &&
+      e.target !== this &&
+      menu.offsetParent !== null
+   ) {
+      menu.style.display = "none";
+   }
+}
+
+</script>
+
+<script>
+  $(document).ready(function () {
+    $(".ch").chosen({
+      width: "100%",
+      no_results_text: "Oops, nothing found!",
+      allow_single_deselect: true,
+    });
+  });
+</script>
+
+<script>
+  document.querySelector('.heart-container').addEventListener('click', function() {
+    this.classList.toggle('active');
+    this.querySelector('.heart-icon').classList.toggle('active');
+  });
+</script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.jquery.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.css"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---Designed by Bhagwan Vaishnav-->

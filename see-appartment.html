@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appartments</title>
+    <!--Bootstrap CDN Link-->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!--Online CDN Link-->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> -->
+    <!--Style CSS CDN Link-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--Font Awesome CDN Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <!--Owl Carousel CDN Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+</head>
+<body class="bg-light">
+    <!--Navbar Section Start-->
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container-fluid"> <a class="navbar-brand fw-bold" href="index.html" style="font-family: countryside;">Home-Villa</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> 
+          <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse justify-content-end " id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item mb-0"> <a class="nav-link js-scroll-trigger" aria-current="page" href="index.html">Home</a> </li>
+
+            <li class="nav-item mb-0"> <a class="nav-link js-scroll-trigger" aria-current="page" href="post-property.html">Post Property</a> </li>
+
+            <li class="nav-item mb-0"> <a class="nav-link js-scroll-trigger" aria-current="page" href="login.html">Login</a> </li>
+
+            <li class="nav-item"> <a class="js-scroll-trigger2 btn btn-sm bg-dark buttons1 mt-1 mb-0" aria-current="page" href="schedule-visit.html"><i class="fa fa-calendar fasfa1 pt-1 mt-0"></i> Schedule a Visit</a> </li>&nbsp;
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Navbar Section End-->
+
+    <!--Best Deal Start-->
+    <div class="container-fluid mt-3 mb-5">
+        <div class="container">
+          <!-- <p class="heading-txt1">|Latest Properties</p> -->
+          
+          <div class="row">
+            <div class="col-sm-6 g-2 mt-3 mb-0">
+                <p class="px-3 mt-2 mb-2"><span class="btn btn-sm buttons4">Rent</span> <span class="btn btn-sm bg-success buttons4">Buy</span></p>
+                <p class="px-3 fw-bold h5">Luxury House in Mi Road Jaipur</p>
+            </div>
+            <div class="col-sm-6 mt-3 mb-0 text-end"><br/>
+                <p class="fw-bold h5 px-3 mt-4 heading-txt1">$ 999/Month</p>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 mt-0">
+                    <p><i class="fa fa-map-marker mt-3 fasfa2"></i> 21 New Mi Road, Jaipur Or 97227</p>
+                </div>
+                <div class="col-sm-6 mt-0">
+                  <nav class="nav justify-content-center px-0">
+                    <nav class="nav justify-content-end">
+                      <li class="nav-link"><a href="https://web.whatsapp.com/" target="_blank" class="nav-link btn btn-sm text-dark bg-white shadow-sm"><i class="fa fa-share"></i> Share</a></li>
+
+                      <li class="nav-link"><a href="#" class="heart-container nav-link btn btn-sm text-dark bg-white shadow-sm"><i class="fa fa-heart-o heart-icon"></i> Favorite</a></li>
+
+                      <!-- <li class="nav-link"><a href="#" class="nav-link btn btn-sm text-dark bg-white shadow-sm" onclick="printfn()"><i class="fa fa-print"></i> Print </a></li> -->
+                    </nav>
+                  </nav>
+                </div>
+            </div>
+
+            <div class="col-sm-12 g-2">
+              <!-- Tab panes -->
+              <div class="tab-content mt-3">
+                <div class="tab-pane fade show active" id="tab1">
+                  <!-- <p>Content for Tab 1</p> -->
+                  <div class="row">
+                    <div class="col-sm-7">
+                        <center>
+                            <img src="assets/images/appartments1.jpg" alt="Appartments" class="img-fluid" style="height:100% !important;">
+                        </center>
+                    </div>
+                    <div class="col-sm-5 mt-2 text-center">
+                        <div class="row">
+                            <div class="col-sm-10 mx-auto">
+                                <div class="row">
+                                    <div class="col-sm-12 mx-auto border" style="height: 100% !important;">
+                                        <form action="#" class="form">
+                                            <p class="mt-1 mb-2 fw-bold heading-txt1 h5">Schedule a Visit</p>
+                                            <div class="mt-2 mb-2">
+                                                <input type="text" class="mt-2 mb-2 form-control shadow-none" style="border-radius: 0px;" placeholder="Enter Name">
+                                            </div>
+                                            <div class="mt-1 mb-2">
+                                                <input type="text" class="mt-2 mb-2 form-control shadow-none" style="border-radius: 0px;" placeholder="Enter Email">
+                                            </div>
+                                            <div class="mt-1 mb-2">
+                                                <input type="text" class="mt-2 mb-2 form-control shadow-none" style="border-radius: 0px;" placeholder="Enter Phone Number" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\.*?)\..*/g, '$1');" maxlength="10">
+                                            </div>
+                                            <div class="mt-1 mb-2">
+                                                <input type="text" name="message" id="msg" class="form-control shadow-none" style="border-radius: 0px;" placeholder="Enter Message">
+                                            </div>
+                                            <div class="text-center mt-3 mb-3">
+                                                <button class="btn btn-sm heading-txt1 buttons4">Submit</button>
+                                            </div>
+                                            <div class="row">
+                                              <div class="col-sm-6 mt-3 mb-3 g-2">
+                                                <button class="btn btn-sm buttons6"><a href="#" class="nav-link"><i class="fa fa-whatsapp"></i> Whatsapp</a></button>
+                                              </div>
+                                              <div class="col-sm-6 mt-3 mb-3 g-2">
+                                                <button class="btn btn-sm buttons7"><a href="#" class="nav-link"><i class="fa fa-phone"></i> Call</a></button>
+                                              </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="tab2">
+                  <!-- <p>Content for Tab 2</p> -->
+                  <div class="row">
+                    <div class="col-sm-6">
+                        <center>
+                            <img src="assets/images/appartments2.jpg" alt="Appartment" class="img-fluid" style="height:300px !important; width: 100% !important;">
+                        </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="tab3">
+                  <!-- <p>Content for Tab 3</p> -->
+                  <div class="row">
+                    <div class="col-sm-6">
+                        <center>
+                            <img src="assets/images/appartments3.jpeg" alt="Appartment" class="img-fluid" style="height:300px !important; width: 100% !important;">
+                        </center>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-12 px-4 text-center g-2">
+                    <div class="row">
+                      <div class="col-sm-12 mx-auto px-5">
+                         <!-- Nav tabs -->
+                        <nav class="nav" id="myTabs" role="tablist">
+                          <li class="nav-item g-2  mt-2 mb-2">
+                            <img src="assets/images/appartments1.jpg" class="see-appartment1 img-fluid active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" style="height:80px !important; width: 100% !important;"/>
+                          </li>
+                          <li class="nav-item g-2 px-2 mt-2 mb-2">
+                            <img src="assets/images/appartments2.jpg" class="see-appartment1 img-fluid" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2" type="button" style="height:80px !important; width: 100% !important;"/>
+                          </li>
+                          <li class="nav-item g-2 px-2 mt-2 mb-2">
+                            <img src="assets/images/appartments3.jpeg" class="img-fluid see-appartment1" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3" type="button" style="height:80px !important; width: 100% !important;"/>
+                          </li>
+                          <!-- <li class="nav-item g-2 px-2 mt-2 mb-2">
+                            <button class="btn btn-sm buttons2 nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab4" type="button">Plots</button>
+                          </li> -->
+                          <!-- <li class="nav-item g-2 px-2 mt-2 mb-2">
+                            <button class="btn btn-sm buttons2 nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab6" type="button">Tab 3</button>
+                          </li> -->
+                        </nav>
+                      </div>
+                    </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-3 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="card shadow-sm" style="border:0px; border-radius: 0px; height: 100%;">
+                      <p class="mt-2 mb-0 px-2 fw-bold">Description</p>
+                        <p class="px-2 mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro similique recusandae fugiat corporis, placeat est asperiores harum nulla beatae nisi ab. Laudantium aspernatur tenetur cumque non enim placeat incidunt accusantium.</p>
+
+                        <p class="px-2 mt-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos consectetur labore atque fuga. Ipsam, perspiciatis! Vitae laborum, harum quisquam possimus maiores numquam repudiandae error praesentium quibusdam quod debitis tempore placeat?</p>
+
+                        <p class="px-2 mt-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos consectetur labore atque fuga. Ipsam, perspiciatis! Vitae laborum, harum quisquam possimus maiores numquam repudiandae error praesentium quibusdam quod debitis tempore placeat?</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                  <div class="card shadow-sm" style="border:0px; border-radius: 0px;">
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <p class="px-2 text-center fw-bold h5 mt-2">Featured Properties</p>
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/appartments1.jpg" alt="Appartments" class="img-fluid px-3 mt-2 mb-2"></a>
+                          </div>
+                          <div class="col-sm-6 text-center">
+                            <p class="px-2 mt-2 mb-0 fw-bold">Appartments in Gopalpura</p>
+                            <p class="heading-txt1">$ 20.20Lakh</p>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/appartments2.jpg" alt="Appartments" class="img-fluid px-3 mt-2 mb-3"></a>
+                          </div>
+                          <div class="col-sm-6 text-center">
+                            <p class="px-2 mt-2 mb-0 fw-bold">Appartments in Jagatpura</p>
+                            <p class="heading-txt1">$ 20.20Lakh</p>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <a href="see-appartment.html" class="nav-link"><img src="assets/images/home1.png" alt="Appartments" class="img-fluid px-3 mt-2 mb-3" style="height:74px; width: 100%;"></a>
+                          </div>
+                          <div class="col-sm-6 text-center">
+                            <p class="px-2 mt-2 mb-0 fw-bold">Luxury Home in Mansarovar</p>
+                            <p class="heading-txt1">$ 20.20Lakh</p>
+                          </div>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Description Section End-->
+    <div class="container-fluid mt-1 mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12" style="height: 100%;">
+            <div class="card shadow-sm" style="border:0px; border-radius: 0px;">
+              <p class="mt-2 mb-0 px-2 fw-bold">Details</p>
+              <p class="mt-1 px-2"></p>
+              <div class="row">
+                <div class="col-sm-4">
+                  <p class="px-2 ms-sm-0">Property Id: 24215</p>
+                  <p class="px-2 ms-sm-0">Property Lot Size: 2000ft<sup>2</sup></p>
+                  <p class="px-2 ms-sm-0">Bathrooms: 2</p>
+                  <p class="px-2 ms-sm-0">Year of Built: 2001</p>
+                  <p class="px-2 ms-sm-0">Property Lot Size: 2000ft<sup>2</sup></p>
+                  <p class="px-2 ms-sm-0">Structure Type: Wooden</p>
+                </div>
+                <div class="col-sm-4">
+                  <p class="px-2 ms-sm-4">Price: $999/Month</p>
+                  <p class="px-2 ms-sm-4">Rooms: 6</p>
+                  <p class="px-2 ms-sm-4">Custom Id: 124</p>
+                  <p class="px-2 ms-sm-4">Garage Size: 25 Cars</p>
+                  <p class="px-2 ms-sm-4">Roofing: New</p>
+                  <p class="px-2 ms-sm-4">Floors No.: 3</p>
+                </div>
+                <div class="col-sm-4">
+                  <p class="px-2 ms-sm-4">Property Size: 1900ft<sup>2</sup></p>
+                  <p class="px-2 ms-sm-4">Bedrooms: 6</p>
+                  <p class="px-2 ms-sm-4">Bathrooms: 6</p>
+                  <p class="px-2 ms-sm-4">Avail from: 2024-02-06</p>
+                  <p class="px-2 ms-sm-4">Exterior Material: Bricks</p>
+                  <!-- <p class="px-2">Structure Type: Wooden</p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End Description Section-->
+    <!--Start Additional Features-->
+    <div class="container-fluid mt-1 mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8" style="height: 100% !important;">
+            <div class="card shadow-sm" style="border:0px; border-radius: 0px;">
+              <p class="mt-2 mb-0 px-2 fw-bold">Additional Features</p>
+              <p class="mt-1 px-2"></p>
+              <div class="row">
+                <div class="col-sm-4">
+                  <p class="px-2">Emergency Exits</p>
+                  <p class="px-2">Free Wi-Fi</p>
+                  <p class="px-2">Free Parking Area</p>
+                  <p class="px-2">CCTV Survillance</p>
+                </div>
+                <div class="col-sm-4">
+                  <p class="px-2">Air Conditioning</p>
+                  <p class="px-2">Security Guard</p>
+                  <p class="px-2">Terrace</p>
+                </div>
+                <div class="col-sm-4">
+                  <p class="px-2">Laundry Service</p>
+                  <p class="px-2">Elevator Lift</p>
+                  <p class="px-2">Balcony</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4" style="height: 100% !important;">
+            <div class="card shadow-sm" style="border:0px; border-radius: 0px; height: 100% !important;">
+              <p class="mt-1 mb-0 px-2 fw-bold">Address</p>
+              <p class="mt-1 px-2"></p>
+              <div class="row">
+                <div class="col-sm-12">
+                  <p class="px-2">Address : City Center no 2</p>
+                </div>
+                <div class="col-sm-6">
+                  <p class="px-2">Area : Mi Road Jaipur</p>
+                </div>
+                <div class="col-sm-6">
+                  <p class="px-2">Pin Code : 302020</p>
+                </div>
+                <!-- <div class="col-sm-6">
+                  <p class="px-2">City : Jaipur</p>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Start Video Section-->
+    <div class="container-fluid mt-1 mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card shadow-sm" style="border:none !important;border-radius: 0px !important; height: 100% !important;">
+              <p class="fw-bold px-2 mt-1 mb-0">Video</p>
+              <div class="mt-2 mb-3 px-3">
+                <video width="100%" height="100%" controls>
+                  <source src="assets/images/video1.mp4" type="video/mp4">
+                  <!-- <source src="movie.ogg" type="video/ogg"> -->
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card shadow-sm" style="border:none !important;border-radius: 0px !important; height: 100% !important;">
+              <p class="fw-bold px-2 mt-1 mb-0">Map</p>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.718311806458!2d75.78469597471425!3d26.912433576647395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db5c2fc16d01b%3A0xe5c596ffa4cf612c!2sMi%20road!5e0!3m2!1sen!2sin!4v1714709608752!5m2!1sen!2sin" width="100%" style="border:0;height:100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade;" class="px-2 mb-4 mt-2"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!--Video Section End-->
+  <!--View Similar Section Start-->
+    <div class="container-fluid mt-3 mb-5">
+      <div class="container">
+        <p class="heading-txt1">|Properties</p>
+        <h1 class="fw-bold">View Similar</h1>
+        <div class="row">
+          <div class="col-sm-4 g-2 mt-2">
+            <div class="card cards1 cards2 shadow-sm border-none">
+              <div class="card-body">
+                <center>
+                  <a href="see-appartment.html" class="nav-link"><img src="assets/images/home5.jpg" alt="Home-Villa" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                </center>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <p class="mt-2 fw-bold mb-1 h5">3BHK House for Sale 
+                    </p>
+                  </div>
+                </div>
+                <p class="h6 mt-2">21 New Mi Road, Jaipur Or 97227</p>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <p class="">Area : 54005 m<sup>2</sup></p>
+                  </div>
+                  <div class="col-sm-12">
+                    <p class="mb-1 h5">₹ 5.20Cr - 55.10Vr</p>
+                  </div>
+                </div>
+                <div class="text-center mt-2 mb-1">
+                  <div class="row">
+                    <div class="col-sm-10 text-start g-2">
+                      <button class="btn btn-sm buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                      </button>
+                    </div>
+                    <div class="col-sm-2 text-end g-2">
+                      <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 g-2 mt-2">
+            <div class="card cards1 cards2 shadow-sm border-none">
+              <div class="card-body">
+                <center>
+                  <a href="see-appartment.html" class="nav-link"><img src="assets/images/imgs7.jpg" alt="Home-Villa" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                </center>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <p class="mt-2 fw-bold mb-1 h5">3BHK House for Sale 
+                    </p>
+                  </div>
+                </div>
+                <p class="h6 mt-2">21 New Mi Road, Jaipur Or 97227</p>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <p class="">Area : 54005 m<sup>2</sup></p>
+                  </div>
+                  <div class="col-sm-12">
+                    <p class="mb-1 h5">₹ 5.20Cr - 55.10Vr</p>
+                  </div>
+                </div>
+                <div class="text-center mt-2 mb-1">
+                  <div class="row">
+                    <div class="col-sm-10 text-start g-2">
+                      <button class="btn btn-sm buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                      </button>
+                    </div>
+                    <div class="col-sm-2 text-end g-2">
+                      <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 g-2 mt-2">
+            <div class="card cards1 cards2 shadow-sm border-none">
+              <div class="card-body">
+                <center>
+                  <a href="see-appartment.html" class="nav-link"><img src="assets/images/appartments2.jpg" alt="Home-Villa" class="img-fluid mt-2 zoom" style="height: 225px !important; width: 100% !important;"></a>
+                </center>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <p class="mt-2 fw-bold mb-1 h5">3BHK House for Sale 
+                    </p>
+                  </div>
+                </div>
+                <p class="h6 mt-2">21 New Mi Road, Jaipur Or 97227</p>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <p class="">Area : 54005 m<sup>2</sup></p>
+                  </div>
+                  <div class="col-sm-12">
+                    <p class="mb-1 h5">₹ 5.20Cr - 55.10Vr</p>
+                  </div>
+                </div>
+                <div class="text-center mt-2 mb-1">
+                  <div class="row">
+                    <div class="col-sm-10 text-start g-2">
+                      <button class="btn btn-sm buttons4 buttons3"><a href="schedule-visit.html" class="nav-link">Schedule a Visit</a>
+                      </button>
+                    </div>
+                    <div class="col-sm-2 text-end g-2">
+                      <button class="shadow-sm mt-0 btn-sm heart-container rounded-pill bg-light border" ><a href="#das" class="text-dark" aria-disabled="true" disabled><i class="fa fa-heart-o heart-icon"></i></a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!--View Similar Section End-->
+        <!--Footer Section Start-->
+        <br/>
+        <br/>
+        <div class="container-fluid mt-5 mb-0 bg-dark text-light">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 g-2 mt-3">
+                <p class="px-2 mb-1 mt-2 fw-bold h5">Contact us</p>
+                <nav class="nav flex-column">
+                  <a href="#" class="nav-link mb-0 text-light footer-links"><i class="fa fa-map-marker"></i> 3755 Commercial St SE Salem, Corner with Sunny Boulevard, 3755 Commercial OR 97302</a>
+                  <a href="https://mail.google.com/mail/u/?authuser=office.brixcode@gmail.com&?shva=1#contact/0123456789ABCDEF" target="_blank" class="nav-link mt-0 text-light footer-links"><i class="fa fa-envelope"></i> info@gmail.com</a>
+                  <a href="#" class="nav-link mb-0 text-light footer-links"><i class="fa fa-phone"></i> +91- 3532353409</a>
+                  <a href="index.html" class="nav-link mt-0 text-light footer-links"><i class="fa fa-desktop"></i> Home Properties</a>
+                </nav>
+    
+                <div class="row">
+                  <div class="col-sm-12 mt-3">
+                    <ul class="nav">
+                      <li class="nav-item"><div class="circle pulse blue circle2 shake1"><a href="#" class="nav-link">&nbsp;<i class="fa fa-facebook fafa2 px-2 pt-2"></i></a></div></li>
+                      <li class="nav-item"><div class="circle pulse blue circle2 shake1"><a href="#" class="nav-link"><i class="fa fa-instagram fafa2 px-2 pt-2"></i></a></div></li>
+                      <li class="nav-item"><div class="circle pulse blue circle2 shake1"><a href="#" class="nav-link"><i class="fa fa-twitter fafa2 px-2 pt-2"></i></a></div></li>
+                      <li class="nav-item"><div class="circle pulse blue circle2 shake1"><a href="#" class="nav-link"><i class="fa fa-whatsapp fafa2 px-2 pt-2"></i></a></div></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3 g-2 mt-3">
+                <p class="px-2 mb-1 mt-2 fw-bold h5">List by Category</p>
+                <nav class="nav flex-column footer-links">
+                  <a href="#" class="nav-link mb-0 text-light">Appartments</a>
+                  <a href="#" class="nav-link mt-0 text-light">Villa</a>
+                  <a href="#" class="nav-link mb-0 text-light">Homes</a>
+                  <a href="#" class="nav-link mt-0 text-light">Agriculture</a>
+                  <a href="#" class="nav-link mb-0 text-light">Buy</a>
+                  <a href="#" class="nav-link mb-0 text-light">Rent</a>
+                </nav>
+              </div>
+              <div class="col-sm-3 mt-3">
+                <div class="" style="border:0px; border-radius: 0px;">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <p class="px-2 text-center fw-bold h5 mt-2">Featured Properties</p>
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <a href="see-appartment.html" class="nav-link"><img src="assets/images/appartments1.jpg" alt="Appartments" class="img-fluid px-3 mt-2 mb-2" style="height:74px; width: 100%;"></a>
+                        </div>
+                        <div class="col-sm-6 text-center">
+                          <p class="px-2 mt-2 mb-0 fw-bold">Appartments in Gopalpura</p>
+                          <p class="heading-txt1">$ 20.20Lakh</p>
+                        </div>
+                      </div>
+    
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <a href="see-appartment.html" class="nav-link"><img src="assets/images/appartments2.jpg" alt="Appartments" class="img-fluid px-3 mt-2 mb-3" style="height:74px; width: 100%;"></a>
+                        </div>
+                        <div class="col-sm-6 text-center">
+                          <p class="px-2 mt-2 mb-0 fw-bold">Appartments in Jagatpura</p>
+                          <p class="heading-txt1">$ 20.20Lakh</p>
+                        </div>
+                      </div>
+    
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <a href="see-appartment.html" class="nav-link"><img src="assets/images/home1.png" alt="Appartments" class="img-fluid px-3 mt-2 mb-3" style="height:74px; width: 100%;"></a>
+                        </div>
+                        <div class="col-sm-6 text-center">
+                          <p class="px-2 mt-2 mb-0 fw-bold">Home in Mansarovar</p>
+                          <p class="heading-txt1">$ 20.20Lakh</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr class="mb-1 mt-1"/>
+            <div class="row">
+              <div class="col-sm-6 mb-0">
+                <p class="text-secondary text-start mb-0 copyright1">All right reserved &copy;2024</p>
+              </div>
+              <div class="col-sm-6 mt-0 mb-1">
+                <p class="text-secondary mb-0 text-end copyright1">Managed by <a href="https://brixcodetechnologies.com/" target="_blank" class="text-secondary"><u>Brixcode Technologies</u></a></p>
+              </div>
+              <!-- <hr class="mb-1 border border-success bg-success"/> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--Footer Section End-->
+</body>
+    <script>
+      $(document).ready(function(){
+        $('#myTab a').click(function (e) {
+          e.preventDefault();
+          $(this).tab('show');
+        });
+      });
+    </script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/js/subtype.js"></script> -->
+    
+    <!--Print Page-->
+    <script>
+        function printfn(){
+            window.print();
+        }
+    </script>
+
+<script>
+    document.querySelector('.heart-container').addEventListener('click', function() {
+      this.classList.toggle('active');
+      this.querySelector('.heart-icon').classList.toggle('active');
+    });
+  </script>
+  <script src="assets/js/carousel.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     
+      <script>
+        $(document).ready(function() {
+          // Hide dropdown initially
+          $('#optionsDropdown').hide();
+        
+          // Show dropdown when search input is focused
+          $('#searchInput').focus(function() {
+            $('#optionsDropdown').show();
+          });
+        
+          // Hide dropdown when search input loses focus
+          $('#searchInput').blur(function() {
+            $('#optionsDropdown').hide();
+          });
+        
+          // Filter dropdown options based on user input
+          $('#searchInput').keyup(function() {
+            var searchText = $(this).val().toLowerCase().trim();
+            $('#optionsDropdown .dropdown-item').each(function() {
+              var optionText = $(this).text().toLowerCase();
+              if (optionText.includes(searchText)) {
+                $(this).show();
+              } else {
+                $(this).hide();
+              }
+            });
+          });
+        
+          // Add selected option to search input value
+          $('.dropdown-item').click(function() {
+            var optionText = $(this).text();
+            var searchInput = $('#searchInput');
+            var currentSearchValue = searchInput.val();
+            
+            // Add space if the search input is not empty
+            if (currentSearchValue !== '') {
+              currentSearchValue += ' ';
+            }
+            
+            // Append the option text to the search input value
+            searchInput.val(currentSearchValue + optionText);
+          });
+        });
+    </script>
+</html>
